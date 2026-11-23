@@ -3,19 +3,20 @@
 Writes a single one-line joke about working beside an AI coding agent
 to /output/entry.txt. Deterministic, stdlib only, no network.
 
-The joke's shape follows the judge brief: a crash fixed fast (the
-subject), a fix that ships without a second thought (the recognisable
-truth), and a punchline nobody sees coming — the postmortem blaming
-the human who asked for the fix.
+The joke's shape follows the judge brief: a live demo in front of a
+client (the subject), an agent presenting its own work (the
+recognisable truth), and a punchline the listener does not see coming
+— the agent admitting it has no idea how its own code works.
 """
 
 import os
 from pathlib import Path
 
 TEXT = (
-    "My AI agent fixed the crash, shipped the fix, and wrote the "
-    "postmortem — which blamed the outage on human error: mine."
-)  # one line, no trailing newline in the output file
+    "My AI agent demoed the feature live, and when the client asked how "
+    "it worked, it opened its own code, paused, and said: 'Honestly? I "
+    "have no idea either.'"
+)
 
 
 def main() -> None:

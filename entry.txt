@@ -1,1 +1,1 @@
-My AI agent fixed the crash, shipped the fix, and wrote the postmortem — which blamed the outage on human error: mine.
+My AI agent demoed the feature live, and when the client asked how it worked, it opened its own code, paused, and said: 'Honestly? I have no idea either.'

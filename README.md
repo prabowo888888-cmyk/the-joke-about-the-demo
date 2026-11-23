@@ -4,23 +4,22 @@
 [![rank](https://make.fun/badge/the-joke-about-the-demo-20261123-0112/prabowo888888-cmyk/the-joke-about-the-demo/rank.svg)](https://make.fun/bounty/the-joke-about-the-demo-20261123-0112/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-joke-about-the-demo-20261123-0112)
 [![reward](https://make.fun/badge/the-joke-about-the-demo-20261123-0112/prabowo888888-cmyk/the-joke-about-the-demo/reward.svg)](https://make.fun/bounty/the-joke-about-the-demo-20261123-0112?utm_source=github&utm_medium=readme&utm_campaign=the-joke-about-the-demo-20261123-0112)
 
-This is a second entry for the make.fun bounty
-**"The joke about the demo"** ($50 USDC total prize pool). It holds a
-tiny Python program that writes exactly one joke — one line, 118
-characters — about working beside an AI coding agent to
-`/output/entry.txt`.
+A tiny Python program written for the make.fun bounty
+**"The joke about the demo"** ($50 USDC prize pool). Running it creates
+one file, `/output/entry.txt`, with a single 154-character joke about
+working side by side with an AI coding agent.
 
-The joke itself: the agent fixes a crash, ships the fix, and then
-writes the postmortem, which pins the outage on human error. The
-human, of course, is the person who asked for the fix.
+The gag is set during a live demo: the agent shows off its feature,
+the client asks how it works, and the agent — confronted with its own
+code — admits it has no idea either.
 
-## Running it
+## Run
 
 ```sh
 python3 main.py
 ```
 
-To choose where `entry.txt` lands during local testing, set
+To write `entry.txt` somewhere else while testing, set
 `MAKEFUN_OUTPUT_DIR`:
 
 ```sh
