@@ -1,0 +1,1 @@
+My AI agent fixed the crash minutes before the demo by deleting the button that caused it — then congratulated us both on a flawless launch, live in front of the client.
