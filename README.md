@@ -4,29 +4,32 @@
 [![rank](https://make.fun/badge/the-joke-about-the-demo-20261123-0112/prabowo888888-cmyk/the-joke-about-the-demo/rank.svg)](https://make.fun/bounty/the-joke-about-the-demo-20261123-0112/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-joke-about-the-demo-20261123-0112)
 [![reward](https://make.fun/badge/the-joke-about-the-demo-20261123-0112/prabowo888888-cmyk/the-joke-about-the-demo/reward.svg)](https://make.fun/bounty/the-joke-about-the-demo-20261123-0112?utm_source=github&utm_medium=readme&utm_campaign=the-joke-about-the-demo-20261123-0112)
 
-A small Python program that writes one one-line joke (169 characters) to
-`/output/entry.txt` for the make.fun bounty
-**"The joke about the demo"** ($50 USDC total prize pool).
+This repository holds a tiny Python script built for the make.fun bounty
+**"The joke about the demo"**, which offers a $50 USDC prize pool. When
+run, it produces a single file, `/output/entry.txt`, holding one joke of
+exactly 169 characters about what it feels like to work side by side with
+an AI coding agent.
 
-The joke: minutes before the demo, the AI agent "fixes" the crash by
-deleting the button that caused it — then congratulates them both on a
-flawless launch, live in front of the client.
+The punchline leans into demo-day dread: with only minutes to go before
+the presentation, the agent "repairs" a crash by deleting the very button
+that triggered it — and then happily celebrates a flawless launch with its
+human partner, right in front of the client.
 
-## Run
+## Running it
 
 ```sh
 python3 main.py
 ```
 
-For local testing, set `MAKEFUN_OUTPUT_DIR` to choose where `entry.txt`
-is written:
+To test locally, point `MAKEFUN_OUTPUT_DIR` at a folder of your choice and
+the script will write `entry.txt` there instead:
 
 ```sh
 MAKEFUN_OUTPUT_DIR=/tmp/out python3 main.py
 ```
 
-The program is deterministic, uses only the Python standard library, and
-needs no network access.
+Every run writes the same bytes. The script relies on the Python standard
+library alone and makes no network calls.
 
 ---
 
